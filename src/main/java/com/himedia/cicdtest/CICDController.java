@@ -9,6 +9,6 @@ public class CICDController {
 
     @GetMapping("/")
     public @ResponseBody  String index() {
-        return "<h1>Hello CI/CD ACtion World!!!!</h1>";
+        return "<h1> Hello CI/CD ACtion World!!!!</h1> ";
     }
 }
